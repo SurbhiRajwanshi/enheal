@@ -1416,8 +1416,9 @@
 }
 
 .client-one_image-box:hover img{
-	transform:translateY(-70px);
+	transform:translateY(-54px);
 }
+
 
 
 
@@ -2102,16 +2103,21 @@ height: 271px;
 	z-index:1;
 	width:100%;
 	background-size: 100% !important;
-	height:27rem;
+	height:27em;
 	opacity:0.9;
 	background:url(../images/main-slider/pattern-1.png);
 	background-position:left top;
 	background-repeat:no-repeat;
 }
+.slider-two_pattern-layer img{
+	height:32em !important;
+	object-fit: cover;
+	object-position: center;
+}
 
 .slider-two .slide{
 	position:relative;
-	padding:150px 0px 220px;
+	padding:272px 0px 220px;
 }
 
 .slider-two .owl-dots{
@@ -2454,6 +2460,7 @@ height: 271px;
 	bottom:0px;
 	opacity:0.92;
 	background-color:var(--color-thirtyfive);
+	
 }
 
 .clients-one_title-column{
@@ -2953,10 +2960,12 @@ height: 271px;
 	display:inline-block;
 	font-size:var(--font-16);
 	color:var(--color-thirtytwo);
-	margin-top: var(--margin-top-30);
+	 /* margin-top: var(--margin-top-30);  */
+	margin-top: 21px;
 	background: linear-gradient(90deg, var(--color-thirtythree) 0%, var(--color-thirtytwo) 100%);
-	-webkit-background-clip: text;
+	-webkit-background-clip:text;
 	-webkit-text-fill-color: transparent;
+
 }
 
 /*** 
@@ -6963,6 +6972,8 @@ height: 271px;
 	position:relative;
 	text-align:center;
 	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	padding:280px 0px 110px;
 	
 }
