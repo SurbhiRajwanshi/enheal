@@ -2103,7 +2103,7 @@ height: 271px;
 	z-index:1;
 	width:100%;
 	background-size: 100% !important;
-	height:27em;
+	 height:27em; 
 	opacity:0.9;
 	background:url(../images/main-slider/pattern-1.png);
 	background-position:left top;
@@ -2114,6 +2114,33 @@ height: 271px;
 	object-fit: cover;
 	object-position: center;
 }
+
+@media screen and (max-width:1199px) {
+	.slider-two_pattern-layer img{
+		height:100% !important;
+		
+	}
+	
+}
+
+
+
+
+
+
+
+.accessories_ims_sk{
+	 height: 39em; 
+}
+
+@media screen and (max-width:1199px) {
+	.accessories_ims_sk{
+		height: 100%; 
+   }
+}
+
+
+
 
 .slider-two .slide{
 	position:relative;
@@ -3397,6 +3424,25 @@ height: 271px;
 	position:relative;
 	margin-top:var(--margin-top-30);
 }
+
+
+
+@media screen and (max-width: 600px) {
+	.choose-one_button{
+		position:relative;
+		text-align: center ;
+	}
+}
+
+@media screen and (max-width: 600px) {
+.about_centre_sk{
+	text-align: center;
+	justify-content: center;
+}
+}
+
+about_centre_sk
+
 
 /*** 
 
@@ -8943,7 +8989,7 @@ height: 271px;
 }
 
 .upper-right{
-	margin-left: 283px;
+	margin-left: 153px;
 	font-size: 155px;
 }
 

@@ -599,9 +599,12 @@
 	
 }
 
-@media only screen and (max-width: 900px){
-	
-	
+@media only screen and (max-width: 500px){
+	.logo img{
+		/* margin-left:10px; */
+		max-width: 170px !important;
+		width: 120px !important;
+	}
 	
 }
 
@@ -790,6 +793,7 @@
 	.service-detail h4{
 		margin-top:var(--margin-top-30);
 	}
+
 	
 	.header-style-two .logo{
 		padding:15px 0px;
@@ -808,6 +812,7 @@
 	.header-style-two .outer-box{
 		top: 20px;
 	}
+	
 	
 }
 

@@ -4,8 +4,8 @@ document.write(`<footer class="main-footer" style="background-image:url(images/b
         <div class="row clearfix">                                                                   
             <div class="big-column col-lg-6 col-md-12 col-sm-12">
                 <div class="row clearfix">
-                    <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                        <div class="footer-widget logo-widget">
+                    <div class="footer-column col-lg-6 col-md-6 col-sm-12" id="footer_neel">
+                        <div class="footer-widget logo-widget sk_footer">
                             <div class="logo   footer-logo">
                                 <a href="index.html"><img src="imgg/logo-white.png" alt="" /></a>
                             </div>
@@ -29,7 +29,7 @@ document.write(`<footer class="main-footer" style="background-image:url(images/b
 										<li><a href="https://behance.com/" class="fa-solid fa-behance fa-fw"></a></li>
 									</ul>
                     </div>
-                    <a class="text" href="privacyPolicy.html">Privacy Policy</a>
+                    <a class="text  er_text_1" href="privacyPolicy.html">Privacy Policy</a>
                 </div> 
                 </div>
             </div>         
