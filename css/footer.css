@@ -208,7 +208,7 @@
 	margin-top:20px;
 	line-height:1.8em;
 	color: var(--color-twentyseven);
-	margin-left: -64px;
+	/* margin-left: -64px; */
 }
 
 .main-footer .contact-widget .timing strong{

@@ -118,7 +118,7 @@ template.innerHTML = `<header class="main-header header-style-two">
     <div class="menu-backdrop"></div>
     <div class="close-btn"><span class="icon flaticon-020-x-mark"></span></div>
     <nav class="menu-box">
-        <div class="nav-logo  "><a href="index.html"><img src="imgg/logo-white.png" alt="" title="" style="background-color: black; padding: 25px;"></a></div>
+        <div class="nav-logo  "><a href="index.html"><img  src="imgg/logo-white.png" alt="" title="" style="background-color: black; padding: 25px;"></a></div>
         <div class="search-box">
             <form method="post" action="contact.html">
                 <div class="form-group">
